@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "all_candidates_recomputed": true,
+  "raw_X_parent_y_m_exact_cache_parity": true,
+  "all_February_IoU_and_FP_FN_reproduced": true,
+  "causality_checks": [
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I10_E",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I10_W",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I210_E",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I210_W",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I405_N",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I405_S",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D12_I5_N",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D12_I5_S",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I10_E",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I10_W",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I210_E",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I210_W",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I405_N",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I405_S",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D12_I5_N",
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "population": "old410",
+      "panel": "D12_I5_S",
+      "future_label_mutation_no_effect": true
+    }
+  ],
+  "query_data_rebuilt_and_hash_verified": 197,
+  "onset_hashes_unchanged": true,
+  "no_default_updated": true,
+  "no_model_selection_on_February": true,
+  "official_S_queue": null,
+  "Kaggle_upload": false
+}

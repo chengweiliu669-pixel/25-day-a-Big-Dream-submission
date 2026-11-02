@@ -1,0 +1,161 @@
+{
+  "state": "night_plan_complete",
+  "training_processes_active": false,
+  "no_more_training_this_plan": true,
+  "deadline": "2026-11-02T08:00:00-08:00",
+  "official_known_total_user_reported": 0.81,
+  "official_new_total": null,
+  "Task2_default_unchanged": true,
+  "Task2_onset_unchanged": true,
+  "Task2_observed_point_leader": "hard_examples__hard05_a100",
+  "point_leader_chosen_for_descriptive_reporting_only": true,
+  "October_preselected_model": "tversky__precision_a100",
+  "all14_reported": true,
+  "February_is_reused_development_not_blind": true,
+  "unadjusted_CI_not_corrected_for_multiple_candidates": true,
+  "model_selection_on_February": false,
+  "Task1_full55_verified_S_state": 0.943117149015159,
+  "Task1_replications": [
+    {
+      "experiment": "state_quality_spatial_v3_replication_20261102",
+      "not_full55": true,
+      "no_seed_selection": true,
+      "results": {
+        "January": {
+          "delta_S_state": 0.00028101076138309367,
+          "dN_proxy_MAE_reduction_percent": 1.943108764241419,
+          "all_ten_roads_improved": true
+        },
+        "February": {
+          "delta_S_state": 0.00028964156939192964,
+          "dN_proxy_MAE_reduction_percent": 1.8118874822233288,
+          "all_ten_roads_improved": true
+        }
+      }
+    },
+    {
+      "experiment": "state_quality_spatial_v3_replication2_20261102",
+      "not_full55": true,
+      "no_seed_selection": true,
+      "results": {
+        "January": {
+          "delta_S_state": 0.00027548520850573244,
+          "dN_proxy_MAE_reduction_percent": 1.969039634752745,
+          "all_ten_roads_improved": false
+        },
+        "February": {
+          "delta_S_state": 0.00028155244934380264,
+          "dN_proxy_MAE_reduction_percent": 1.7113273125828887,
+          "all_ten_roads_improved": true
+        }
+      }
+    }
+  ],
+  "Kaggle_upload": false,
+  "comparisons": {
+    "new_phase_population": {
+      "incumbent_overall": 0.8281485785331202,
+      "observed_candidate_overall": 0.8288969733022332,
+      "candidate_ongoing": 0.8817616329478295,
+      "fixed_onset": 0.7760323136566369,
+      "incumbent_counts": {
+        "TP_cells": 16642,
+        "FP_cells": 595,
+        "FN_cells": 470,
+        "missed_support_FN_cells": 237,
+        "timing_FN_cells": 233,
+        "positive_link_timing_FP_cells": 439,
+        "complete_negative_link_FP_cells": 32,
+        "unknown_event_link_FP_cells": 124,
+        "known_positive_links": 4014,
+        "missed_positive_links": 111
+      },
+      "candidate_counts": {
+        "TP_cells": 16681,
+        "FP_cells": 614,
+        "FN_cells": 431,
+        "missed_support_FN_cells": 216,
+        "timing_FN_cells": 215,
+        "positive_link_timing_FP_cells": 449,
+        "complete_negative_link_FP_cells": 32,
+        "unknown_event_link_FP_cells": 133,
+        "known_positive_links": 4014,
+        "missed_positive_links": 99
+      },
+      "R127_ongoing_IoU": 0.8598925750844304,
+      "R127_ongoing_counts": {
+        "TP_cells": 16740,
+        "FP_cells": 922,
+        "FN_cells": 372,
+        "missed_support_FN_cells": 197,
+        "timing_FN_cells": 175,
+        "positive_link_timing_FP_cells": 646,
+        "complete_negative_link_FP_cells": 58,
+        "unknown_event_link_FP_cells": 218,
+        "known_positive_links": 4014,
+        "missed_positive_links": 87
+      },
+      "ongoing_delta_CI_vs_incumbent": {
+        "delta": 0.0014967895382260732,
+        "day_cluster_95CI": [
+          0.00031869074403067854,
+          0.0029423975624847886
+        ],
+        "valid_resamples": 2000,
+        "days": 28
+      }
+    },
+    "old410": {
+      "incumbent_overall": 0.7697328212141303,
+      "observed_candidate_overall": 0.7710255103321524,
+      "candidate_ongoing": 0.8039522707799394,
+      "fixed_onset": 0.7380987498843654,
+      "incumbent_counts": {
+        "TP_cells": 5463,
+        "FP_cells": 458,
+        "FN_cells": 1100,
+        "missed_support_FN_cells": 841,
+        "timing_FN_cells": 259,
+        "positive_link_timing_FP_cells": 227,
+        "complete_negative_link_FP_cells": 54,
+        "unknown_event_link_FP_cells": 177,
+        "known_positive_links": 1711,
+        "missed_positive_links": 304
+      },
+      "candidate_counts": {
+        "TP_cells": 5500,
+        "FP_cells": 474,
+        "FN_cells": 1063,
+        "missed_support_FN_cells": 785,
+        "timing_FN_cells": 278,
+        "positive_link_timing_FP_cells": 232,
+        "complete_negative_link_FP_cells": 54,
+        "unknown_event_link_FP_cells": 188,
+        "known_positive_links": 1711,
+        "missed_positive_links": 281
+      },
+      "R127_ongoing_IoU": 0.7790973228130884,
+      "R127_ongoing_counts": {
+        "TP_cells": 5603,
+        "FP_cells": 765,
+        "FN_cells": 960,
+        "missed_support_FN_cells": 730,
+        "timing_FN_cells": 230,
+        "positive_link_timing_FP_cells": 373,
+        "complete_negative_link_FP_cells": 95,
+        "unknown_event_link_FP_cells": 297,
+        "known_positive_links": 1711,
+        "missed_positive_links": 269
+      },
+      "ongoing_delta_CI_vs_incumbent": {
+        "delta": 0.002585378236043989,
+        "day_cluster_95CI": [
+          -0.00034416902071664483,
+          0.005553834625805976
+        ],
+        "valid_resamples": 2000,
+        "days": 28
+      }
+    }
+  }
+}

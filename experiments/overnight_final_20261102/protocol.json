@@ -1,0 +1,220 @@
+{
+  "membership": "Every October-selected candidate in completed predeclared plans at snapshot;no filtering by January/February scores",
+  "candidates": [
+    {
+      "id": "recency__month_balanced_a100",
+      "source": "outputs\\ongoing_night_recency_20261102",
+      "config": {
+        "name": "month_balanced_a100",
+        "capacity": "month_balanced",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9362046155818695,
+      "October_eligible": false
+    },
+    {
+      "id": "recency__recent45_a50",
+      "source": "outputs\\ongoing_night_recency_20261102",
+      "config": {
+        "name": "recent45_a50",
+        "capacity": "recent45",
+        "alpha": 0.5,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9359090175604947,
+      "October_eligible": false
+    },
+    {
+      "id": "reliability__reliable06_a100",
+      "source": "outputs\\ongoing_night_reliability_20261102",
+      "config": {
+        "name": "reliable06_a100",
+        "capacity": "reliable06",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9360051606253093,
+      "October_eligible": false
+    },
+    {
+      "id": "reliability__reliable03_a100",
+      "source": "outputs\\ongoing_night_reliability_20261102",
+      "config": {
+        "name": "reliable03_a100",
+        "capacity": "reliable03",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9358013562774832,
+      "October_eligible": false
+    },
+    {
+      "id": "hard_examples__hard05_a100",
+      "source": "outputs\\ongoing_night_hard_examples_20261102",
+      "config": {
+        "name": "hard05_a100",
+        "capacity": "hard05",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9353620877438603,
+      "October_eligible": false
+    },
+    {
+      "id": "hard_examples__hard05_a50",
+      "source": "outputs\\ongoing_night_hard_examples_20261102",
+      "config": {
+        "name": "hard05_a50",
+        "capacity": "hard05",
+        "alpha": 0.5,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9352540514200386,
+      "October_eligible": false
+    },
+    {
+      "id": "tversky__precision_a100",
+      "source": "outputs\\ongoing_night_tversky_20261102",
+      "config": {
+        "name": "precision_a100",
+        "capacity": "precision",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9377170982282248,
+      "October_eligible": false
+    },
+    {
+      "id": "tversky__precision_a50",
+      "source": "outputs\\ongoing_night_tversky_20261102",
+      "config": {
+        "name": "precision_a50",
+        "capacity": "precision",
+        "alpha": 0.5,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9357697009279297,
+      "October_eligible": false
+    },
+    {
+      "id": "regularization__small200_a50",
+      "source": "outputs\\ongoing_night_regularization_20261102",
+      "config": {
+        "name": "small200_a50",
+        "capacity": "small200",
+        "alpha": 0.5,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9354114900707663,
+      "October_eligible": false
+    },
+    {
+      "id": "regularization__small200_a100",
+      "source": "outputs\\ongoing_night_regularization_20261102",
+      "config": {
+        "name": "small200_a100",
+        "capacity": "small200",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.935234019573647,
+      "October_eligible": false
+    },
+    {
+      "id": "long_boost__long600_a100",
+      "source": "outputs\\ongoing_night_long_boost_20261102",
+      "config": {
+        "name": "long600_a100",
+        "capacity": "long600",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9364306647367213,
+      "October_eligible": false
+    },
+    {
+      "id": "long_boost__long900_a100",
+      "source": "outputs\\ongoing_night_long_boost_20261102",
+      "config": {
+        "name": "long900_a100",
+        "capacity": "long900",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9357833831191973,
+      "October_eligible": false
+    },
+    {
+      "id": "seasonal_robust__recent_hard_a100",
+      "source": "outputs\\ongoing_night_seasonal_robust_20261102",
+      "config": {
+        "name": "recent_hard_a100",
+        "capacity": "recent_hard",
+        "alpha": 1.0,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9348432128691111,
+      "October_eligible": false
+    },
+    {
+      "id": "seasonal_robust__recent_hard_a50",
+      "source": "outputs\\ongoing_night_seasonal_robust_20261102",
+      "config": {
+        "name": "recent_hard_a50",
+        "capacity": "recent_hard",
+        "alpha": 0.5,
+        "mix": "odds50"
+      },
+      "October_IoU": 0.9347930743186199,
+      "October_eligible": false
+    }
+  ],
+  "recommended_model_by_October_only": "tversky__precision_a100",
+  "threshold_family": "clip(a+b*(h-17.5)/25,.05,.75);exact pre-existing smooth threshold family",
+  "intercepts": [
+    0.05,
+    0.075,
+    0.1,
+    0.125,
+    0.15,
+    0.175,
+    0.2,
+    0.225,
+    0.25,
+    0.275,
+    0.3,
+    0.325,
+    0.35,
+    0.375,
+    0.4,
+    0.425,
+    0.45,
+    0.475,
+    0.5,
+    0.525,
+    0.55,
+    0.575,
+    0.6,
+    0.625,
+    0.65,
+    0.675,
+    0.7,
+    0.725,
+    0.75
+  ],
+  "slopes": [
+    0.0,
+    -0.05,
+    0.05,
+    -0.1,
+    0.1,
+    -0.15,
+    0.15
+  ],
+  "January": "Choose threshold parameters only,per already fixed model;maxmacroIoU,tie smaller abs(slope),then lower intercept",
+  "February": "Freeze all profiles and dependencies before evaluation;report every candidate,both fixed populations. No retuning,seed or road selection. Descriptive point leaders are not unbiased model selection.",
+  "onset": "All early_full weights and original thresholds unchanged",
+  "Kaggle_upload": false,
+  "official_total": null
+}
