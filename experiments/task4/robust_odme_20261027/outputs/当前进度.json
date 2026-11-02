@@ -1,0 +1,15 @@
+{
+  "status": "v17 actual external OD acquired and same-test weak-prior experiments completed",
+  "latest_report": "outputs/external_od_v17/REPORT.md",
+  "strict_policy_changed_panels": {},
+  "diagnostic_promoted": false,
+  "actual_S_ODME": null,
+  "original_submission_preserved": true,
+  "released_count_type": "synthetic",
+  "verified_geographic_zone_matches": 0,
+  "true_external_sources": [
+    "Census LODES2023",
+    "FHWA NHTS2017"
+  ],
+  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5"
+}

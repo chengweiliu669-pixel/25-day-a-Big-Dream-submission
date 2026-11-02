@@ -1,0 +1,147 @@
+{
+  "source_repository": "https://github.com/OscarZH2005030/25-day-a-Big-Dream",
+  "policy": "Selected original human-authored history retained with canonical GitHub no-reply identities; AI coauthor trailers removed. Source bytes, licensing, and in-file attributions retained. Original repository is unmodified. Large historical parquet diagnostic arrays excluded.",
+  "imported_commits": [
+    {
+      "original_commit": "ad266f9fc2735178309fdab14d0a016cefffaf49",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "b1f9841e3df0e2cfd1a81008d2dfc97506045d3a",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "a27a66d192f0caf390e945733bb8bd37ab570895",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "7a2a5accc38cc1be4c2806c9577c5bd2b53ec550",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "3a9e129bef4bbe0edd5cb1c258fe903a36c52ceb",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "6f3326245c65f84abfa52311cb30e0970635d590",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "bdeb6b30eedb8a9f05d2e0eb75547dc06abf671d",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "e7662e27ae69405e52d6efde9c3e4110e41ffc39",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "83237888343d650f7e5a0eb4597e9a6fa52b5d92",
+      "author": "JaydenWang9 <146118803+JaydenWang9@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "1dbc0e4c27999d690dac4ba52bdaf95e70c5a86d",
+      "author": "JaydenWang9 <146118803+JaydenWang9@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "0718f9d65e662a1f7b372ff2bffe88059fc9987c",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "556268fe2c794d86a76b948a6b35defaa8447710",
+      "author": "JaydenWang9 <146118803+JaydenWang9@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "fcbdd2909135f663830757286f772429bc2f99e4",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "1a0c4f8e42515e025e63c4180ac91035bef221e4",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "1cb5e1374e99cf2a6c469ecdfedca3abff138440",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "b6da0f714acf35cdd6762816193410d348124942",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "3b963ad1eafe47239a90b28a5fcdcf40fbfa3493",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "351bc9c9fb0410c0cb237fd5bbf7b2dd50ff14f7",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "bbd87056e884656a1b80bbaf8998bc68ed9eca90",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "2a7104d1b50d8287a5253ae17f4e358c0ac34878",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "396e9e6a7c8ce934c90876bb1b3c568c48b129f0",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "210df01b123a7839e2218d14901c830ba47cf235",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "c8966319ba315cd0350faf8b2027b20b39d397e1",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "a74e67148cdcf05b5ad86134c0bdf3958a129575",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "0def1e65b916389743ceca7b45d062511cda0635",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "28adbfe6ab63ec1efc3b9b938ad22fe33c9db75b",
+      "author": "OscarZH2005030 <213363113+OscarZH2005030@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "897b62e5c0c6b7b1099fac8833650dcef304e0a6",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "cd3e7d8e1c53e29bca07f05b4eacfb353ceb648a",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "d806e8de33ebaee274f661d467b8b77850c310dc",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "8e9af586197dcfe6827c0b859c2aa4d4fed63f5a",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "90cb60bf7314a96f7eb97ef0911289e9a819ceea",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "1b8c5c84d1be5bccf92104f62d91b8fca14684c9",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "585c9cb57bf08ca0b1d8653b0d3a7bfbba4c2799",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    },
+    {
+      "original_commit": "f72323a73751e7928c2a819373e72b052a2ba74c",
+      "author": "chengweiliu669-pixel <343271245+chengweiliu669-pixel@users.noreply.github.com>"
+    }
+  ],
+  "source_refs": {
+    "refs/remotes/origin/main": "f72323a73751e7928c2a819373e72b052a2ba74c",
+    "refs/remotes/origin/oscar/task1-training-stack": "e7662e27ae69405e52d6efde9c3e4110e41ffc39",
+    "refs/remotes/origin/task4-reproducible-odme-20261027": "396e9e6a7c8ce934c90876bb1b3c568c48b129f0"
+  }
+}

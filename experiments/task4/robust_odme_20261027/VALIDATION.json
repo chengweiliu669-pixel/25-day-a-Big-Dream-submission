@@ -1,0 +1,86 @@
+{
+  "python": "3.12.14",
+  "compile_all_sources": "passed",
+  "required_input_hashes_checked": 123,
+  "full_prediction_files_checked": 11,
+  "rows_per_prediction": 70708,
+  "relocated_baseline": "passed",
+  "relocated_latest_inference": "passed",
+  "anonymous_external_download_and_extraction": "passed after adding directory creation and original hash checks",
+  "latest_max_abs_flow_difference": 0.0,
+  "windows_powershell_5_1_entry": "passed",
+  "all_historical_stages_portable_full_rerun": false,
+  "historical_experiments": "executed in original workspace; portable full historical replay not repeated",
+  "path_truth_available": false,
+  "robust_v9_original_runs": "360 synthetic cases + 10 panels x 5 grouped count-CV seeds + feasible LP ranges completed",
+  "robust_v9_windows_latest_entry": "passed in relocated directory",
+  "robust_v9_full_portable_replay": false,
+  "robust_v9_latest_numeric_identity_max_abs_difference": 0.0,
+  "robust_v9_portable_full_bounds": "passed for all ten panels and three tolerances",
+  "robust_v9_compile": "passed",
+  "v10": {
+    "portable_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 12,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiment": "480 synthetic cases, 9 candidates, all four components, four real grouped count seeds",
+    "hidden_truth": false
+  },
+  "v11": {
+    "portable_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 13,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiment": "same 480 artificial cases as v10, 26 candidates, all four components; four reused grouped count seeds plus two new audits",
+    "same_old_policy_scores_tolerance": 1e-10,
+    "hidden_truth": false
+  },
+  "v12_v14": {
+    "new_convex_solver": "independently checked against SLSQP epigraph QP on 3 random cases",
+    "portable_windows_ps51_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 15,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiments": "same 480 artificial cases; sparse adjustments, invariant LP, count-only gate; all rejected under joint guards",
+    "new_count_audit_seeds": [
+      20261207,
+      20261208
+    ],
+    "hidden_truth": false
+  },
+  "v15_v16": {
+    "equality_projector": "independent SLSQP check passed on 3 cases",
+    "portable_windows_ps51_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 16,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiments": "same 480 cases, 26 two-direction candidates; no jointly accepted change; family-safe global screen zero gain",
+    "new_count_audit_seeds": [
+      20261209,
+      20261210
+    ],
+    "global_screen_scope": "calibration only, this candidate grid, no independent path validation",
+    "hidden_truth": false
+  },
+  "external_od_v17": {
+    "source_downloads": "anonymous official Census/FHWA, pins recorded; raw data excluded from Git",
+    "Census_uncompressed_official_SHA256": "passed for OD and crosswalk",
+    "LODES_LA_Orange_pairs": 4315198,
+    "NHTS_LA_metro_resident_PM_driver_records": 3114,
+    "geographic_zone_matches_verified": 0,
+    "count_CV_correction": "competition release counts are synthetic, prior reports using real_count_CV refer to released synthetic holdouts",
+    "portable_PS51_inference": "passed",
+    "portable_external_diagnostic": "passed",
+    "prediction_numeric_identity_max_abs_diff": 0.0,
+    "diagnostic_numeric_identity_max_abs_diff": 0.0,
+    "input_hashes_checked": 123,
+    "complete_prediction_files": 17,
+    "rows_per_prediction": 70708,
+    "actual_hidden_path_truth": false,
+    "promoted": false
+  }
+}

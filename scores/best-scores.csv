@@ -1,0 +1,11 @@
+﻿task,metric,score,population,model,evidence,limitation
+Task 1,S_state,0.9428286319696028,"55天、十方向、6,636,705目标；已用于选模的本地留出",8路Jayden186 + D12_I405_S适配LightGBM + D7_I210_E原Transformer/孤立点回退,experiments/task1/best_road_combination_20261026/reproduction/acceptance/published-full55-evaluation.json,不是Kaggle官方分数；历史值0.9428286326922775
+Task 2,proxy Overall IoU,0.827225403,二月新口径367窗口(183 Onset+184 Ongoing),early_full Onset + 900树父模型/六时距残差Ongoing,experiments/task2/best_overall_082723_horizon_20261031/README.md,Onset 0.776032313657；Ongoing约0.878418492；不是官方S_queue
+Task 2,proxy Overall IoU,0.772054927,二月旧口径410窗口；与新口径分开,同一horizon模型,experiments/task2/best_overall_082723_horizon_20261031/README.md,不可与新窗口口径混排
+Task 2,deduplicated proxy Overall,0.790893192093,12—2月去重固定1479窗口,pending shadow候选,experiments/task2/shadow_pending_dedup_20261031/README.md,独立口径的影子候选；不替换默认模型
+Task 3,official S_physics,,官方边界通量不可得,随Task 1使用同一状态预测,experiments/task3/evaluate_task3_local_proxy.py,未找到官方完整分数；不能用FD或LWR代理替代
+Task 3,S_FD diagnostic,0.990807390904859,十方向×三regime等权；已比较四方法中FD最高,LightGBM,experiments/task3/ten_dir_fd_lwr_proxy.csv,同一方法LWR proxy 0.040370315933819685；非官方整体Task3分
+Task 3,S_LWR proxy diagnostic,0.10185135954225112,十方向×三regime等权；同表四方法中LWR代理最高,A_dynamic_fixed,experiments/task3/ten_dir_fd_lwr_proxy.csv,同一方法FD 0.9907163671033505；不能拼接不同方法最高组件
+Task 4,S_link,0.9999394100007907,validation已发布合成计数；十方向/五家族等权,冻结官方目标等价对偶求解基准,experiments/task4/robust_odme_20261027/outputs/official_validation_link_score.csv,只占Task4的25%；不是完整S_ODME
+Task 4,S_link,0.999923233549984,private已发布合成计数,同上,experiments/task4/robust_odme_20261027/outputs/official_private_link_score.csv,不是Kaggle隐藏私榜分数
+Task 4,synthetic S_ODME,0.70716189228971,固定480人工场景的evaluation部分；v11严格策略,joint_dev_v11,experiments/task4/robust_odme_20261027/outputs/joint_v11/four_components_overall.csv,重复查看过的人工敏感性研究；不可称为比赛最好分数

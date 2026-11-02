@@ -1,0 +1,25 @@
+{
+  "best_overall_081796_20261030": {
+    "files": 65,
+    "passed": true,
+    "failures": []
+  },
+  "best_overall_082639_jaccard_20261031": {
+    "files": 69,
+    "passed": true,
+    "failures": []
+  },
+  "best_overall_082723_horizon_20261031": {
+    "files": 172,
+    "passed": true,
+    "failures": []
+  },
+  "task4_prediction": {
+    "rows": 70708,
+    "splits": {
+      "unspecified": 70708
+    },
+    "unique_nonnegative_finite": true
+  },
+  "full_inference_executed_here": false
+}
