@@ -37,3 +37,7 @@ python tools/export_task2_horizon_official.py --data-root D:/data/kaggle_public 
 ```
 
 依赖目录保持原相对位置，包括同级新归档的best_overall_082815_smooth_20261101。每个方案每个split87000行，先核对verification.json，再使用原严格合并器。不要用历史evaluate输出替代官方模板预测。原始比赛数据、运行环境和账号凭据未上传。新导出器已在本提交库独立运行完整validation：八道路、每个方案87000行与研究工作区逐字节一致，另16项未来标签扰动通过。
+
+## 已有贡献者检查问题
+
+原tools/check_contributors.py在本轮基线的两条既有提交上已失败。本轮新增提交按团队已核实账号署名，没有增加新的身份失败；原检查脚本和既有历史均未改写。完整历史检查仍不通过，不把新增提交的署名合规说成全库已通过；见reports/inherited_contributor_check.json。

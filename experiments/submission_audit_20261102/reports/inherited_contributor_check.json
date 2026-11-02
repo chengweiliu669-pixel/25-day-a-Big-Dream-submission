@@ -1,0 +1,15 @@
+{
+  "full_history_guard_passed": false,
+  "inherited_failures_already_present_on_origin_main": true,
+  "inherited_commits": [
+    "25fd257a855a0111fabb51eb652a855ab79b0d0f",
+    "e254d55acdb94261d03d2ea10a79c983f1e15d55"
+  ],
+  "no_new_identity_failures": true,
+  "new_commits_verified": [
+    "985a888dbb3a2cd76ef6b011e785ee1e04185971"
+  ],
+  "history_not_rewritten": true,
+  "team_identity_policy_unchanged": true,
+  "checker_sha256": "2577c71d8f0653fae59430d016db6f403772bf57a5d83265da5e250206ef6dd9"
+}
