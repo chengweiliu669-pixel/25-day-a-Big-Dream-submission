@@ -1,0 +1,41 @@
+{
+  "source_experiment": "state_quality_spatial_overnight_20261102",
+  "decision_source": "December only",
+  "December_baseline": {
+    "S_state": 0.9454969780950199,
+    "dN_MAE": 0.4858004357940612
+  },
+  "December_unpenalized_control": {
+    "S_state": 0.9456168289997737,
+    "dN_MAE": 0.4818127733380318
+  },
+  "changes": {
+    "fit_days_per_month": [
+      4,
+      6
+    ],
+    "width": [
+      32,
+      64
+    ],
+    "epochs": [
+      16,
+      24
+    ],
+    "learning_rate": [
+      0.0003,
+      0.0002
+    ],
+    "weight_decay": [
+      0.001,
+      0.003
+    ],
+    "new_fixed_seeds": [
+      20261104,
+      20261105
+    ]
+  },
+  "January_or_February_tuning": false,
+  "Kaggle_upload_allowed": false,
+  "previous_files_read_only": true
+}

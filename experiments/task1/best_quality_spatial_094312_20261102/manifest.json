@@ -1,0 +1,22 @@
+{
+  ".gitattributes": "c7e33b0575d3f19c311931f87325510f4e166e1b92c2c1ae9969abe2a1909326",
+  ".gitignore": "01d8d0360f02a0c00e236a4eb2a1d8bdf83377acf442eaafad7a136bf14d6bb0",
+  "predict_selected.py": "292b7d3ded7a8baa4a824366e5109e0326b0c9f8df79bf815b73b1dfd344bee1",
+  "profile.json": "c29c618e7e398d25720c330437a4777b7cc6f17b7b7c28525c90ab28bc61e9df",
+  "README.md": "e3e8bc97b9dbb9b61db265d22c4241b40f25cd81f661e320ccda37da85f244d3",
+  "selected-road-models.json": "751c8a502d99aa6201810220b60923244623a0a0169b1be57a514485267bed9e",
+  "acceptance/pipeline_interface_smoke.json": "d01b160bb3f24d5a2d7fa0a85bfc7d4ffaa5073119c923c7b5931f7fc9200804",
+  "acceptance/wrapper_verification.json": "177f69aadfb06e2a9642369e5f86dc24cdc37d252f4e600ea54cacf6ade4fe88",
+  "code/state_quality_spatial_v3_runtime.py": "b4b93c6f51b8b67a958adf5fa4f6e2b4eaad864e8f6c2050cbcacead3832f184",
+  "models/lambda0.pt": "18937059b3cc9aa82e7cd0ba805b2c8236ae816397b852b627d5fcb1ba225193",
+  "reports/decision_before_training.json": "ee98a9fd1ba07bc9518726f96c98c9e4fba026f35eacaaf691bf4d756ae33bc1",
+  "reports/February_results.json": "a5270eace53a2b67bfaad0f179b16f41ffa6b9bda72693ebcc48959f13ca0011",
+  "reports/full55_results.json": "e2756d93867a634c0124b9fee47ad2c6680bf8946a74e1514ce11b760cdb4812",
+  "reports/full55_verification.json": "0ad780638bfd1cf80eb867d3ee9fe0835645649203a04a51c2cea679deaa44c3",
+  "reports/January_results.json": "6eddb34247262db43cdba0f9cab41f81bfe8ec2c413c46c6d2bfad02645f05f7",
+  "reports/protocol.json": "0f2a64a5105569f43395f4a7e2d24ac07f93157f8c7a83b15079c0d827a1484d",
+  "reports/selection.json": "1ca3f47e927447342cbea8ee70f6b18c4a3a19ca68667bc199e090bda6a1f684",
+  "reports/verification.json": "1e04ae67ba4908d52fae28b05d73e81baac394a91f1705b83bd628685178991c",
+  "training_archive/train_state_quality_spatial_v3_20261102.py": "a77ff4aee533baa7dcff028c76ec1da3d20fa45b7d6fd1f78280b554b3a4ec27",
+  "training_archive/verify_state_quality_spatial_v3_full55.py": "6fe6640aa84caa645f128971c2991767bfb64199a6d6adec6a394bb37a217bae"
+}

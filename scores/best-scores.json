@@ -2,6 +2,15 @@
   {
     "task": "Task 1",
     "metric": "S_state",
+    "score": 0.943117149015159,
+    "population": "同55天、十方向、6,636,705目标；反复开发本地留出",
+    "model": "冻结0.9428父链 + quality/spatial双固定种子时序修正；旧默认仍保留",
+    "evidence": "experiments/task1/best_quality_spatial_094312_20261102/reports/full55_results.json",
+    "limitation": "不是Kaggle官方分或完整物理分；delta95%按日区间[.000273649,.000301971]；积累量MAE代理降低2.0239%"
+  },
+  {
+    "task": "Task 1",
+    "metric": "S_state",
     "score": 0.9428286319696028,
     "population": "55天、十方向、6,636,705目标；已用于选模的本地留出",
     "model": "8路Jayden186 + D12_I405_S适配LightGBM + D7_I210_E原Transformer/孤立点回退",

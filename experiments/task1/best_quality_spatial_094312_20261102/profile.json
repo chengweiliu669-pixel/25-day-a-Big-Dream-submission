@@ -1,0 +1,630 @@
+{
+  "version": "state-quality-spatial-v3-20261102",
+  "parent_bundle": "../best_road_combination_20261026",
+  "parent_release_url": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/download/best-road-combination-20261026/TrafficFlowBench-Best-20261026.zip",
+  "parent_release_sha256": "efbc9223b2d45c131840e6c64f460e90b92a6a70700e0bc6a36d5480e0f2a847",
+  "checkpoint": "models/lambda0.pt",
+  "checkpoint_sha256": "18937059b3cc9aa82e7cd0ba805b2c8236ae816397b852b627d5fcb1ba225193",
+  "seeds": [
+    20261104,
+    20261105
+  ],
+  "width": 64,
+  "features": 50,
+  "metrics": {
+    "passed": true,
+    "rows": 6636705,
+    "days": 55,
+    "roads": 10,
+    "baseline": {
+      "S_state": 0.9428286319551186,
+      "dN_MAE": 0.5039843178516414,
+      "rows": 6636705,
+      "roads": [
+        {
+          "panel": "D12_I405_N",
+          "S_state": 0.9615534429407603,
+          "dN_MAE": 0.44590629951334854,
+          "rows": 363106,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 62720,
+              "speed_RMSE": 0.7954147886330383,
+              "flow_per_lane_RMSE": 22.55741049029343,
+              "S_state": 0.9655250258563015
+            },
+            {
+              "regime": "R2",
+              "rows": 123294,
+              "speed_RMSE": 1.0890641077899246,
+              "flow_per_lane_RMSE": 23.968468418784642,
+              "S_state": 0.9581003894840028
+            },
+            {
+              "regime": "R3",
+              "rows": 177092,
+              "speed_RMSE": 0.9757254637442616,
+              "flow_per_lane_RMSE": 23.33402152323612,
+              "S_state": 0.9610349134819763
+            }
+          ]
+        },
+        {
+          "panel": "D12_I405_S",
+          "S_state": 0.9345913876948085,
+          "dN_MAE": 1.107392269566362,
+          "rows": 194969,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 19268,
+              "speed_RMSE": 1.4264783640732093,
+              "flow_per_lane_RMSE": 40.686845048293975,
+              "S_state": 0.93799481946566
+            },
+            {
+              "regime": "R2",
+              "rows": 64145,
+              "speed_RMSE": 1.348169373111168,
+              "flow_per_lane_RMSE": 41.87709244961714,
+              "S_state": 0.938773770662759
+            },
+            {
+              "regime": "R3",
+              "rows": 111556,
+              "speed_RMSE": 1.8026663187265792,
+              "flow_per_lane_RMSE": 44.42195812108613,
+              "S_state": 0.9270055729560065
+            }
+          ]
+        },
+        {
+          "panel": "D12_I5_N",
+          "S_state": 0.9581526003339169,
+          "dN_MAE": 0.2870426407245109,
+          "rows": 1004145,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 272068,
+              "speed_RMSE": 0.9157546087457776,
+              "flow_per_lane_RMSE": 24.74439172266662,
+              "S_state": 0.9612490001303802
+            },
+            {
+              "regime": "R2",
+              "rows": 221360,
+              "speed_RMSE": 1.0244273127212995,
+              "flow_per_lane_RMSE": 25.863152335123935,
+              "S_state": 0.9580439532549583
+            },
+            {
+              "regime": "R3",
+              "rows": 510717,
+              "speed_RMSE": 1.1327327632500044,
+              "flow_per_lane_RMSE": 26.56711917050562,
+              "S_state": 0.9551648476164123
+            }
+          ]
+        },
+        {
+          "panel": "D12_I5_S",
+          "S_state": 0.9415194963161843,
+          "dN_MAE": 0.5685961717956141,
+          "rows": 415258,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 70142,
+              "speed_RMSE": 1.3073666646444237,
+              "flow_per_lane_RMSE": 29.17252631270405,
+              "S_state": 0.9493952765372741
+            },
+            {
+              "regime": "R2",
+              "rows": 125050,
+              "speed_RMSE": 1.5134871822689289,
+              "flow_per_lane_RMSE": 30.245556087151293,
+              "S_state": 0.9441204171961752
+            },
+            {
+              "regime": "R3",
+              "rows": 220066,
+              "speed_RMSE": 2.0378193203756108,
+              "flow_per_lane_RMSE": 32.530835823630284,
+              "S_state": 0.9310427952151037
+            }
+          ]
+        },
+        {
+          "panel": "D7_I10_E",
+          "S_state": 0.9455036579212676,
+          "dN_MAE": 0.39911669070420974,
+          "rows": 594132,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 102297,
+              "speed_RMSE": 1.327233399637195,
+              "flow_per_lane_RMSE": 31.88643456486922,
+              "S_state": 0.9468854920681036
+            },
+            {
+              "regime": "R2",
+              "rows": 202846,
+              "speed_RMSE": 1.3233128107285996,
+              "flow_per_lane_RMSE": 30.70782083884218,
+              "S_state": 0.94787378064515
+            },
+            {
+              "regime": "R3",
+              "rows": 288989,
+              "speed_RMSE": 1.503860067305981,
+              "flow_per_lane_RMSE": 33.60641934214134,
+              "S_state": 0.9417517010505492
+            }
+          ]
+        },
+        {
+          "panel": "D7_I10_W",
+          "S_state": 0.9500636619327101,
+          "dN_MAE": 0.4231640375587205,
+          "rows": 445815,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 56496,
+              "speed_RMSE": 1.1691531840934943,
+              "flow_per_lane_RMSE": 27.67120763253684,
+              "S_state": 0.9535316987053024
+            },
+            {
+              "regime": "R2",
+              "rows": 176988,
+              "speed_RMSE": 1.2669190272584576,
+              "flow_per_lane_RMSE": 27.9870786508502,
+              "S_state": 0.9511777887122324
+            },
+            {
+              "regime": "R3",
+              "rows": 212331,
+              "speed_RMSE": 1.4414131299232769,
+              "flow_per_lane_RMSE": 30.500840886602255,
+              "S_state": 0.9454814983805955
+            }
+          ]
+        },
+        {
+          "panel": "D7_I210_E",
+          "S_state": 0.9440403353639261,
+          "dN_MAE": 0.2537546064773856,
+          "rows": 1367094,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 157193,
+              "speed_RMSE": 1.4626249075057165,
+              "flow_per_lane_RMSE": 30.420414055037693,
+              "S_state": 0.945084984555681
+            },
+            {
+              "regime": "R2",
+              "rows": 293947,
+              "speed_RMSE": 1.4887539129340124,
+              "flow_per_lane_RMSE": 30.80469419466272,
+              "S_state": 0.9442259832647173
+            },
+            {
+              "regime": "R3",
+              "rows": 915954,
+              "speed_RMSE": 1.5417195037546239,
+              "flow_per_lane_RMSE": 31.15933101850487,
+              "S_state": 0.9428100382713798
+            }
+          ]
+        },
+        {
+          "panel": "D7_I210_W",
+          "S_state": 0.926700636766672,
+          "dN_MAE": 0.6918669051447781,
+          "rows": 344738,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 46398,
+              "speed_RMSE": 2.1292639298044236,
+              "flow_per_lane_RMSE": 32.449038661848526,
+              "S_state": 0.9291303028088074
+            },
+            {
+              "regime": "R2",
+              "rows": 111741,
+              "speed_RMSE": 2.065370228411405,
+              "flow_per_lane_RMSE": 32.41135728940087,
+              "S_state": 0.9305392958111063
+            },
+            {
+              "regime": "R3",
+              "rows": 186599,
+              "speed_RMSE": 2.4547845733945257,
+              "flow_per_lane_RMSE": 34.62305417553372,
+              "S_state": 0.9204323116801025
+            }
+          ]
+        },
+        {
+          "panel": "D7_I405_N",
+          "S_state": 0.9345658032754837,
+          "dN_MAE": 0.3604236675227705,
+          "rows": 1470896,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 231858,
+              "speed_RMSE": 1.5896551953939146,
+              "flow_per_lane_RMSE": 38.21385191167089,
+              "S_state": 0.9363661613138772
+            },
+            {
+              "regime": "R2",
+              "rows": 465663,
+              "speed_RMSE": 1.6572149226827253,
+              "flow_per_lane_RMSE": 37.512025010542686,
+              "S_state": 0.9354449384953037
+            },
+            {
+              "regime": "R3",
+              "rows": 773375,
+              "speed_RMSE": 1.8229162411785824,
+              "flow_per_lane_RMSE": 37.485259791225026,
+              "S_state": 0.9318863100172701
+            }
+          ]
+        },
+        {
+          "panel": "D7_I405_S",
+          "S_state": 0.9315952970054565,
+          "dN_MAE": 0.5025798895087147,
+          "rows": 436552,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 62141,
+              "speed_RMSE": 1.7013522828884244,
+              "flow_per_lane_RMSE": 34.77013591059608,
+              "S_state": 0.9365936864914864
+            },
+            {
+              "regime": "R2",
+              "rows": 194739,
+              "speed_RMSE": 1.912908300233412,
+              "flow_per_lane_RMSE": 34.383410300467325,
+              "S_state": 0.9323205661512668
+            },
+            {
+              "regime": "R3",
+              "rows": 179672,
+              "speed_RMSE": 2.144162632085802,
+              "flow_per_lane_RMSE": 36.27971579130031,
+              "S_state": 0.9258716383736165
+            }
+          ]
+        }
+      ]
+    },
+    "candidate": {
+      "S_state": 0.943117149015159,
+      "dN_MAE": 0.4937841849202444,
+      "rows": 6636705,
+      "roads": [
+        {
+          "panel": "D12_I405_N",
+          "S_state": 0.9616699508518538,
+          "dN_MAE": 0.4389951312223375,
+          "rows": 363106,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 62720,
+              "speed_RMSE": 0.7966339183349396,
+              "flow_per_lane_RMSE": 22.39067977566768,
+              "S_state": 0.9656265195359535
+            },
+            {
+              "regime": "R2",
+              "rows": 123294,
+              "speed_RMSE": 1.088271978439948,
+              "flow_per_lane_RMSE": 23.85046031564058,
+              "S_state": 0.9582079723570394
+            },
+            {
+              "regime": "R3",
+              "rows": 177092,
+              "speed_RMSE": 0.975542532743161,
+              "flow_per_lane_RMSE": 23.15598343066875,
+              "S_state": 0.9611753606625684
+            }
+          ]
+        },
+        {
+          "panel": "D12_I405_S",
+          "S_state": 0.9351537300716557,
+          "dN_MAE": 1.0821584418558243,
+          "rows": 194969,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 19268,
+              "speed_RMSE": 1.4232852992581193,
+              "flow_per_lane_RMSE": 40.21934683387134,
+              "S_state": 0.93842220496339
+            },
+            {
+              "regime": "R2",
+              "rows": 64145,
+              "speed_RMSE": 1.34791360394708,
+              "flow_per_lane_RMSE": 41.125574552933486,
+              "S_state": 0.9393554589974942
+            },
+            {
+              "regime": "R3",
+              "rows": 111556,
+              "speed_RMSE": 1.801057771065443,
+              "flow_per_lane_RMSE": 43.582990292482876,
+              "S_state": 0.927683526254083
+            }
+          ]
+        },
+        {
+          "panel": "D12_I5_N",
+          "S_state": 0.9582506511485548,
+          "dN_MAE": 0.28285242254434384,
+          "rows": 1004145,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 272068,
+              "speed_RMSE": 0.9155027807928827,
+              "flow_per_lane_RMSE": 24.625091381996366,
+              "S_state": 0.9613459032086766
+            },
+            {
+              "regime": "R2",
+              "rows": 221360,
+              "speed_RMSE": 1.0226247194409601,
+              "flow_per_lane_RMSE": 25.782678021194737,
+              "S_state": 0.958144586243826
+            },
+            {
+              "regime": "R3",
+              "rows": 510717,
+              "speed_RMSE": 1.1313341992809707,
+              "flow_per_lane_RMSE": 26.480500829177096,
+              "S_state": 0.955261463993162
+            }
+          ]
+        },
+        {
+          "panel": "D12_I5_S",
+          "S_state": 0.9420225211427985,
+          "dN_MAE": 0.5509553075641637,
+          "rows": 415258,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 70142,
+              "speed_RMSE": 1.3041845164760144,
+              "flow_per_lane_RMSE": 28.657856432851027,
+              "S_state": 0.9498585911789323
+            },
+            {
+              "regime": "R2",
+              "rows": 125050,
+              "speed_RMSE": 1.510015841239242,
+              "flow_per_lane_RMSE": 29.73075028173934,
+              "S_state": 0.9445900826132322
+            },
+            {
+              "regime": "R3",
+              "rows": 220066,
+              "speed_RMSE": 2.031602252136899,
+              "flow_per_lane_RMSE": 31.954567457754653,
+              "S_state": 0.9316188896362312
+            }
+          ]
+        },
+        {
+          "panel": "D7_I10_E",
+          "S_state": 0.9458501959659134,
+          "dN_MAE": 0.393730323982867,
+          "rows": 594132,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 102297,
+              "speed_RMSE": 1.3252957628522035,
+              "flow_per_lane_RMSE": 31.573197185003963,
+              "S_state": 0.9471674936805561
+            },
+            {
+              "regime": "R2",
+              "rows": 202846,
+              "speed_RMSE": 1.321616549457054,
+              "flow_per_lane_RMSE": 30.34737191705562,
+              "S_state": 0.948186764061985
+            },
+            {
+              "regime": "R3",
+              "rows": 288989,
+              "speed_RMSE": 1.5004286600683705,
+              "flow_per_lane_RMSE": 33.12314450520557,
+              "S_state": 0.942196330155199
+            }
+          ]
+        },
+        {
+          "panel": "D7_I10_W",
+          "S_state": 0.9502418738104708,
+          "dN_MAE": 0.4151195477379967,
+          "rows": 445815,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 56496,
+              "speed_RMSE": 1.1696375853434648,
+              "flow_per_lane_RMSE": 27.463809329689617,
+              "S_state": 0.9536802410038192
+            },
+            {
+              "regime": "R2",
+              "rows": 176988,
+              "speed_RMSE": 1.2667967941569407,
+              "flow_per_lane_RMSE": 27.787779711668836,
+              "S_state": 0.9513332248005975
+            },
+            {
+              "regime": "R3",
+              "rows": 212331,
+              "speed_RMSE": 1.43751364408441,
+              "flow_per_lane_RMSE": 30.30984738362764,
+              "S_state": 0.9457121556269956
+            }
+          ]
+        },
+        {
+          "panel": "D7_I210_E",
+          "S_state": 0.9440847011963459,
+          "dN_MAE": 0.2526242665259713,
+          "rows": 1367094,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 157193,
+              "speed_RMSE": 1.461249799853688,
+              "flow_per_lane_RMSE": 30.405026216603833,
+              "S_state": 0.9451264842237641
+            },
+            {
+              "regime": "R2",
+              "rows": 293947,
+              "speed_RMSE": 1.487032958026267,
+              "flow_per_lane_RMSE": 30.766999106892705,
+              "S_state": 0.944292055458015
+            },
+            {
+              "regime": "R3",
+              "rows": 915954,
+              "speed_RMSE": 1.5400833320354883,
+              "flow_per_lane_RMSE": 31.17213407057613,
+              "S_state": 0.9428355639072585
+            }
+          ]
+        },
+        {
+          "panel": "D7_I210_W",
+          "S_state": 0.9271645389559054,
+          "dN_MAE": 0.6730346956871281,
+          "rows": 344738,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 46398,
+              "speed_RMSE": 2.124728786970379,
+              "flow_per_lane_RMSE": 32.11944749191075,
+              "S_state": 0.9294809484576416
+            },
+            {
+              "regime": "R2",
+              "rows": 111741,
+              "speed_RMSE": 2.05987884293662,
+              "flow_per_lane_RMSE": 31.973295669206188,
+              "S_state": 0.930993756979511
+            },
+            {
+              "regime": "R3",
+              "rows": 186599,
+              "speed_RMSE": 2.4465737420296727,
+              "flow_per_lane_RMSE": 34.08925531512473,
+              "S_state": 0.9210189114305636
+            }
+          ]
+        },
+        {
+          "panel": "D7_I405_N",
+          "S_state": 0.934643268186675,
+          "dN_MAE": 0.3563340422528058,
+          "rows": 1470896,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 231858,
+              "speed_RMSE": 1.5899032938998292,
+              "flow_per_lane_RMSE": 38.159635475295104,
+              "S_state": 0.9364023683207041
+            },
+            {
+              "regime": "R2",
+              "rows": 465663,
+              "speed_RMSE": 1.6570236167321453,
+              "flow_per_lane_RMSE": 37.42021708187235,
+              "S_state": 0.9355194567824836
+            },
+            {
+              "regime": "R3",
+              "rows": 773375,
+              "speed_RMSE": 1.8220540515039974,
+              "flow_per_lane_RMSE": 37.35085177914334,
+              "S_state": 0.9320079794568372
+            }
+          ]
+        },
+        {
+          "panel": "D7_I405_S",
+          "S_state": 0.9320900588214162,
+          "dN_MAE": 0.49203766982900504,
+          "rows": 436552,
+          "regimes": [
+            {
+              "regime": "R1",
+              "rows": 62141,
+              "speed_RMSE": 1.70080134766179,
+              "flow_per_lane_RMSE": 34.357655754970786,
+              "S_state": 0.9369218214783611
+            },
+            {
+              "regime": "R2",
+              "rows": 194739,
+              "speed_RMSE": 1.9094955769231297,
+              "flow_per_lane_RMSE": 33.82202406576627,
+              "S_state": 0.9328246770880397
+            },
+            {
+              "regime": "R3",
+              "rows": 179672,
+              "speed_RMSE": 2.138242201582003,
+              "flow_per_lane_RMSE": 35.596031149540956,
+              "S_state": 0.9265236778978474
+            }
+          ]
+        }
+      ]
+    },
+    "delta_S_state": 0.0002885170600404052,
+    "dN_relative_change": -0.020238988734565533,
+    "day_cluster_95CI": [
+      0.0002736491351812115,
+      0.00030197094726144846
+    ],
+    "resamples": 2000,
+    "official_total": null,
+    "official_S_physics": null,
+    "caveat": "Full55 previously used development holdout;proxy accumulation error against released observations,not official LWR. Same unchangedTask2;no Kaggle upload.",
+    "checkpoint_sha256": "18937059b3cc9aa82e7cd0ba805b2c8236ae816397b852b627d5fcb1ba225193"
+  },
+  "Task2_unchanged": true,
+  "all_parent_weights_unchanged": true,
+  "official_total": null,
+  "official_S_physics": null,
+  "default_parent_preserved": true
+}

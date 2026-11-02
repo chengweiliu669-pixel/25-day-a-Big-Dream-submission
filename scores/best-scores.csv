@@ -1,4 +1,5 @@
-﻿task,metric,score,population,model,evidence,limitation
+task,metric,score,population,model,evidence,limitation
+Task 1,S_state,0.943117149015159,"同55天、十方向、6,636,705目标；反复开发本地留出",冻结0.9428父链 + quality/spatial双固定种子时序修正；旧默认仍保留,experiments/task1/best_quality_spatial_094312_20261102/reports/full55_results.json,"不是Kaggle官方分或完整物理分；delta95%按日区间[.000273649,.000301971]；积累量MAE代理降低2.0239%"
 Task 1,S_state,0.9428286319696028,"55天、十方向、6,636,705目标；已用于选模的本地留出",8路Jayden186 + D12_I405_S适配LightGBM + D7_I210_E原Transformer/孤立点回退,experiments/task1/best_road_combination_20261026/reproduction/acceptance/published-full55-evaluation.json,不是Kaggle官方分数；历史值0.9428286326922775
 Task 2,proxy Overall IoU,0.827225403,二月新口径367窗口(183 Onset+184 Ongoing),early_full Onset + 900树父模型/六时距残差Ongoing,experiments/task2/best_overall_082723_horizon_20261031/README.md,Onset 0.776032313657；Ongoing约0.878418492；不是官方S_queue
 Task 2,proxy Overall IoU,0.772054927,二月旧口径410窗口；与新口径分开,同一horizon模型,experiments/task2/best_overall_082723_horizon_20261031/README.md,不可与新窗口口径混排

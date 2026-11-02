@@ -1,0 +1,192 @@
+{
+  "passed": true,
+  "roads": 10,
+  "real_dates_per_road": 2,
+  "checks": [
+    {
+      "panel": "D12_I405_N",
+      "date": "2031-01-05",
+      "rows": 3970,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I405_N",
+      "date": "2031-03-01",
+      "rows": 5884,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "date": "2031-01-05",
+      "rows": 2964,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "date": "2031-03-01",
+      "rows": 1918,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "date": "2031-01-05",
+      "rows": 11280,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "date": "2031-03-01",
+      "rows": 10402,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "date": "2031-01-05",
+      "rows": 4377,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "date": "2031-03-01",
+      "rows": 5960,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "date": "2031-01-05",
+      "rows": 16140,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "date": "2031-03-01",
+      "rows": 14741,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "date": "2031-01-05",
+      "rows": 4672,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "date": "2031-03-01",
+      "rows": 6760,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "date": "2031-01-05",
+      "rows": 19551,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "date": "2031-03-01",
+      "rows": 30223,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "date": "2031-01-05",
+      "rows": 8868,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "date": "2031-03-01",
+      "rows": 7700,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "date": "2031-01-05",
+      "rows": 38875,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "date": "2031-03-01",
+      "rows": 21559,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "date": "2031-01-05",
+      "rows": 7170,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "date": "2031-03-01",
+      "rows": 4445,
+      "max_abs_prediction_error": 0.0,
+      "fake_future_labels_ignored": true,
+      "known_observations_unchanged": true,
+      "unmasked_target_reads_blocked": true
+    }
+  ],
+  "checkpoint_sha256": "18937059b3cc9aa82e7cd0ba805b2c8236ae816397b852b627d5fcb1ba225193",
+  "parent_root_unchanged": true,
+  "no_Kaggle_upload": true,
+  "max_abs_prediction_error": 0.0,
+  "asserted_tolerance": 1e-06
+}

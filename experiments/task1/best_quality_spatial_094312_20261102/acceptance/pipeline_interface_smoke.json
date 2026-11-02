@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "original_pipeline_bundle_interface": true,
+  "smoke_only": true,
+  "date": "2031-01-05",
+  "roads": 10,
+  "target_rows": 117867,
+  "full55_report": "reports/full55_results.json",
+  "Kaggle_upload": false
+}
