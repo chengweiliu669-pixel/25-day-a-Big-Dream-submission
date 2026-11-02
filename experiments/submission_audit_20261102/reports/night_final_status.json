@@ -1,0 +1,22 @@
+{
+  "four_training_groups_complete": true,
+  "new_trained_model_adopted": false,
+  "all_best_models_preserved": true,
+  "official_new_scores": null,
+  "rows": 6980503,
+  "complete_submissions": 4,
+  "Task1_Task2_Task4_full_inference_and_merge": true,
+  "actual_user_upload_csv_still_unavailable": true,
+  "portable_exporter_verified": {
+    "passed": true,
+    "all8_roads": true,
+    "rows_per_model": 87000,
+    "portable_exporter_in_submission_repo": true,
+    "byte_identical_to_independent_workspace_export": {
+      "horizon082723_validation_queue.csv": true,
+      "smooth082815_validation_queue.csv": true,
+      "R127_validation_queue.csv": true
+    },
+    "future_target_mutation_checks": 16
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "user_reported_official_total": 0.81,
+  "official_component_scores": null,
+  "uploaded_submission_csv": null,
+  "submitted_repo_commit": "e254d55acdb94261d03d2ea10a79c983f1e15d55",
+  "scoring_source": "https://github.com/jacky850/trafficflowbench-public/blob/main/docs/SCORING_SPEC.md",
+  "weights": {
+    "state": 0.35,
+    "queue": 0.3,
+    "physics": 0.15,
+    "odme": 0.2
+  },
+  "confirmed": [
+    "Task2 local0.827225403 is not total or official S_queue",
+    "Task3 reuses Task1 states; high FD is only1/3 of its score",
+    "Task4 reported0.999939410001 is S_link only,25% ofTask4 and5% oftotal",
+    "Submission repository says Task2 full exporter absent and no full submission produced there; actual uploaded file still needed",
+    "Task4 input123hashes and17outputfiles of70708rows verified against this machine data",
+    "New real Task2 exporters completed87000rows per split permodel; R127 matches original release predictions exactly"
+  ],
+  "hypotheses_not_proven": [
+    "Task3 conservation may constrain total, but historical LWR topology proxy is not official and not current0.9428combination",
+    "Task4 unobserved path components may constrain total; path operator has substantial nullity",
+    "March/April domain shift and noisy observation versus underlying state labels can erase small proxy gains",
+    "Uploaded CSV may not match declared model; cannot decide without actual file"
+  ],
+  "task2_official_template_disagreements": {
+    "validation": {
+      "horizon_R127_disagreements": 402,
+      "smooth_horizon_disagreements": 71,
+      "horizon_positive": 5826,
+      "R127_positive": 5860
+    },
+    "private": {
+      "horizon_R127_disagreements": 429,
+      "smooth_horizon_disagreements": 53,
+      "horizon_positive": 5062,
+      "R127_positive": 5147
+    }
+  },
+  "task2_last_proxy_improvement_total_if_perfect_transfer": 0.000276952714080203,
+  "unidentifiable": [
+    "Cannot determine four component scores from one scalar0.81",
+    "Cannot claim any new official total without organizer return",
+    "Do not fill unknown components with proxy maxima"
+  ]
+}

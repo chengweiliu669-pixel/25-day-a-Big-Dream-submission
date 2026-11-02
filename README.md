@@ -1,3 +1,7 @@
+## 2026-11-02：总分0.81审计与完整提交对照
+
+[分析、四组实际训练结果、完整6,980,503行提交下载](experiments/submission_audit_20261102/README.md)。补齐Task2官方模板导出器，新增单任务可控对照；本轮未发现通过验收的替换模型，也不宣称获得新官方总分。原模型和默认选择保持不变。
+
 # 25-day-a-Big-Dream · 提交整理版
 
 团队：[OscarZH2005030](https://github.com/OscarZH2005030) · [JaydenWang9](https://github.com/JaydenWang9) · [chengweiliu669-pixel](https://github.com/chengweiliu669-pixel)

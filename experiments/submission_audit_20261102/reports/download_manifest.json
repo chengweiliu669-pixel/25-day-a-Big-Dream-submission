@@ -1,0 +1,34 @@
+{
+  "archives": [
+    {
+      "csv": "submission_horizon082723.csv",
+      "csv_sha256": "5b7d516ec02262628bfcc0f9c9dc5bd9e74cf1400e368d0bf664ed921244fa69",
+      "zip": "submission_horizon082723.csv.zip",
+      "zip_sha256": "6e2ee0a4566c5cb72ab43f1658d3c77e7c5e0be6b2401964d76e91154f5de25b",
+      "zip_bytes": 149211041
+    },
+    {
+      "csv": "submission_R127_queue_only.csv",
+      "csv_sha256": "f009c2ab252f57142a057156c79393f9fb17da61cecd235c55ca2d681c18ac85",
+      "zip": "submission_R127_queue_only.csv.zip",
+      "zip_sha256": "c390f7b98c2f1c2363709ada503acf9d1bc1043c393923a9e303d630afc453c7",
+      "zip_bytes": 149211364
+    },
+    {
+      "csv": "submission_smooth082815_queue_only.csv",
+      "csv_sha256": "4185e04e233a9d8a26479cef0b6010b10adf33849fdb3e2e0a70ef00c8ad1fff",
+      "zip": "submission_smooth082815_queue_only.csv.zip",
+      "zip_sha256": "5942e62a1a7d5d4d83dd31df2a8ac7f5e629154b0e2b60a2041202e790b15b2f",
+      "zip_bytes": 149210912
+    },
+    {
+      "csv": "submission_task4_v9_only.csv",
+      "csv_sha256": "6b632fb7e20a9c60bdaf492996745786a9fb0a0a9f04adb3d05ec44e182528c1",
+      "zip": "submission_task4_v9_only.csv.zip",
+      "zip_sha256": "9cc7c6bfa5d600f9f3f19fd016d40e1808768b41017c1bd176ff6996296bf312",
+      "zip_bytes": 149249891
+    }
+  ],
+  "official_new_scores": null,
+  "task4_candidate_is_existing_policy_not_new_official_improvement": true
+}

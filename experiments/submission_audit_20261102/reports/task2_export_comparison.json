@@ -1,0 +1,1614 @@
+{
+  "validation": {
+    "windows": 80,
+    "rows": 87000,
+    "comparison": [
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 6,
+        "smooth_positive": 6,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 19,
+        "smooth_positive": 19,
+        "R127_positive": 19
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 15,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 27,
+        "smooth_positive": 27,
+        "R127_positive": 40
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 21,
+        "smooth_positive": 21,
+        "R127_positive": 23
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 35,
+        "smooth_positive": 35,
+        "R127_positive": 42
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 89,
+        "smooth_positive": 88,
+        "R127_positive": 91
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 149,
+        "smooth_positive": 149,
+        "R127_positive": 157
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 9,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 41,
+        "smooth_positive": 41,
+        "R127_positive": 50
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 42,
+        "smooth_positive": 42,
+        "R127_positive": 42
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 9,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 151,
+        "smooth_positive": 151,
+        "R127_positive": 160
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 4,
+        "smooth_positive": 4,
+        "R127_positive": 1
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 13,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 15,
+        "smooth_positive": 15,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 12,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 12,
+        "smooth_positive": 12,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 29,
+        "smooth_positive": 29,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 42,
+        "smooth_positive": 42,
+        "R127_positive": 42
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 35,
+        "smooth_positive": 35,
+        "R127_positive": 36
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 6,
+        "smooth_positive": 6,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 27,
+        "smooth_positive": 27,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 15,
+        "smooth_positive": 15,
+        "R127_positive": 8
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 4,
+        "smooth_positive": 4,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 4,
+        "smooth_positive": 4,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 3
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 15,
+        "smooth_positive": 15,
+        "R127_positive": 10
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 82,
+        "smooth_positive": 81,
+        "R127_positive": 75
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 11,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 17,
+        "smooth_positive": 16,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 114,
+        "smooth_positive": 114,
+        "R127_positive": 114
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 31,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 84,
+        "smooth_positive": 82,
+        "R127_positive": 89
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 6,
+        "smooth_positive": 6,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 2,
+        "smooth_positive": 2,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 2,
+        "smooth_positive": 2,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 2,
+        "smooth_positive": 2,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 78,
+        "smooth_positive": 78,
+        "R127_positive": 78
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 12,
+        "smooth_positive": 12,
+        "R127_positive": 12
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 3,
+        "horizon_positive": 699,
+        "smooth_positive": 696,
+        "R127_positive": 707
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 108,
+        "smooth_positive": 108,
+        "R127_positive": 108
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 54,
+        "smooth_horizon_disagreements": 25,
+        "horizon_positive": 1509,
+        "smooth_positive": 1484,
+        "R127_positive": 1555
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 1
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 6,
+        "smooth_positive": 6,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 38,
+        "smooth_positive": 38,
+        "R127_positive": 33
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 9,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 16
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 212,
+        "smooth_positive": 211,
+        "R127_positive": 212
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 238,
+        "smooth_positive": 236,
+        "R127_positive": 234
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 172,
+        "smooth_positive": 170,
+        "R127_positive": 178
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 172,
+        "smooth_positive": 171,
+        "R127_positive": 171
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 4,
+        "horizon_positive": 75,
+        "smooth_positive": 71,
+        "R127_positive": 78
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 10,
+        "smooth_positive": 10,
+        "R127_positive": 9
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 2,
+        "smooth_positive": 2,
+        "R127_positive": 4
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 6,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 368,
+        "smooth_positive": 367,
+        "R127_positive": 362
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 16,
+        "smooth_horizon_disagreements": 3,
+        "horizon_positive": 11,
+        "smooth_positive": 8,
+        "R127_positive": 15
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 12,
+        "smooth_horizon_disagreements": 4,
+        "horizon_positive": 31,
+        "smooth_positive": 27,
+        "R127_positive": 19
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 17,
+        "smooth_positive": 17,
+        "R127_positive": 15
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 28,
+        "smooth_horizon_disagreements": 8,
+        "horizon_positive": 278,
+        "smooth_positive": 270,
+        "R127_positive": 262
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 4,
+        "smooth_positive": 4,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 10,
+        "smooth_positive": 10,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 11,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 12,
+        "smooth_positive": 12,
+        "R127_positive": 1
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 14,
+        "smooth_horizon_disagreements": 5,
+        "horizon_positive": 129,
+        "smooth_positive": 124,
+        "R127_positive": 129
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 11,
+        "smooth_horizon_disagreements": 5,
+        "horizon_positive": 214,
+        "smooth_positive": 209,
+        "R127_positive": 219
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 12,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 52,
+        "smooth_positive": 51,
+        "R127_positive": 64
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 18,
+        "smooth_positive": 18,
+        "R127_positive": 18
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_validation_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 18,
+        "smooth_positive": 18,
+        "R127_positive": 18
+      }
+    ]
+  },
+  "private": {
+    "windows": 80,
+    "rows": 87000,
+    "comparison": [
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 21,
+        "smooth_positive": 21,
+        "R127_positive": 21
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 6,
+        "smooth_positive": 6,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 13,
+        "smooth_positive": 13,
+        "R127_positive": 12
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 2
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 16,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 28,
+        "smooth_positive": 28,
+        "R127_positive": 28
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 120,
+        "smooth_positive": 119,
+        "R127_positive": 124
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 128,
+        "smooth_positive": 126,
+        "R127_positive": 121
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 26,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 44,
+        "smooth_positive": 44,
+        "R127_positive": 70
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 180,
+        "smooth_positive": 180,
+        "R127_positive": 180
+      },
+      {
+        "panel": "D7_I10_E",
+        "window_id": "Q2_D7_I10_E_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 18,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 14,
+        "smooth_positive": 14,
+        "R127_positive": 32
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 29,
+        "smooth_positive": 29,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 29,
+        "smooth_positive": 29,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 29,
+        "smooth_positive": 29,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I10_W",
+        "window_id": "Q2_D7_I10_W_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 18,
+        "smooth_positive": 16,
+        "R127_positive": 26
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 4,
+        "horizon_positive": 30,
+        "smooth_positive": 26,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 7,
+        "horizon_positive": 22,
+        "smooth_positive": 15,
+        "R127_positive": 23
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 17,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 5,
+        "smooth_positive": 5,
+        "R127_positive": 22
+      },
+      {
+        "panel": "D7_I210_E",
+        "window_id": "Q2_D7_I210_E_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 18,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 10,
+        "smooth_positive": 10,
+        "R127_positive": 28
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 11,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 12,
+        "smooth_positive": 12,
+        "R127_positive": 3
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 8,
+        "smooth_positive": 8,
+        "R127_positive": 4
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 8,
+        "smooth_positive": 8,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 13,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 17,
+        "smooth_positive": 17,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 30,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 20,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 30,
+        "smooth_positive": 29,
+        "R127_positive": 10
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 13,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 31,
+        "smooth_positive": 29,
+        "R127_positive": 28
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 89,
+        "smooth_positive": 89,
+        "R127_positive": 90
+      },
+      {
+        "panel": "D7_I210_W",
+        "window_id": "Q2_D7_I210_W_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 1,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 31,
+        "smooth_positive": 30,
+        "R127_positive": 30
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 2,
+        "smooth_positive": 2,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 8,
+        "smooth_positive": 8,
+        "R127_positive": 7
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 3
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 3
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 455,
+        "smooth_positive": 455,
+        "R127_positive": 458
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 363,
+        "smooth_positive": 363,
+        "R127_positive": 358
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 36,
+        "smooth_positive": 36,
+        "R127_positive": 36
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 14,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 963,
+        "smooth_positive": 961,
+        "R127_positive": 953
+      },
+      {
+        "panel": "D7_I405_N",
+        "window_id": "Q2_D7_I405_N_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 17,
+        "smooth_horizon_disagreements": 4,
+        "horizon_positive": 27,
+        "smooth_positive": 23,
+        "R127_positive": 38
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 9
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 8,
+        "smooth_positive": 8,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 11
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 171,
+        "smooth_positive": 170,
+        "R127_positive": 178
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 11,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 221,
+        "smooth_positive": 219,
+        "R127_positive": 232
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 195,
+        "smooth_positive": 195,
+        "R127_positive": 195
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 3,
+        "horizon_positive": 174,
+        "smooth_positive": 171,
+        "R127_positive": 177
+      },
+      {
+        "panel": "D7_I405_S",
+        "window_id": "Q2_D7_I405_S_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 2,
+        "horizon_positive": 67,
+        "smooth_positive": 65,
+        "R127_positive": 75
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 2,
+        "smooth_positive": 2,
+        "R127_positive": 5
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 6,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 2,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 1,
+        "smooth_positive": 1,
+        "R127_positive": 3
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 100,
+        "smooth_positive": 100,
+        "R127_positive": 103
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 9,
+        "smooth_horizon_disagreements": 5,
+        "horizon_positive": 277,
+        "smooth_positive": 272,
+        "R127_positive": 268
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 20,
+        "smooth_horizon_disagreements": 6,
+        "horizon_positive": 274,
+        "smooth_positive": 268,
+        "R127_positive": 254
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 20,
+        "smooth_positive": 19,
+        "R127_positive": 27
+      },
+      {
+        "panel": "D12_I5_N",
+        "window_id": "Q2_D12_I5_N_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 18,
+        "smooth_positive": 18,
+        "R127_positive": 18
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_001",
+        "condition": 0,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 3,
+        "smooth_positive": 3,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_002",
+        "condition": 0,
+        "horizon_R127_disagreements": 0,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 0,
+        "smooth_positive": 0,
+        "R127_positive": 0
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_003",
+        "condition": 0,
+        "horizon_R127_disagreements": 9,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 7,
+        "smooth_positive": 7,
+        "R127_positive": 8
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_004",
+        "condition": 0,
+        "horizon_R127_disagreements": 8,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 9,
+        "smooth_positive": 9,
+        "R127_positive": 3
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_005",
+        "condition": 0,
+        "horizon_R127_disagreements": 4,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 6,
+        "smooth_positive": 6,
+        "R127_positive": 6
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_006",
+        "condition": 1,
+        "horizon_R127_disagreements": 13,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 61,
+        "smooth_positive": 61,
+        "R127_positive": 74
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_007",
+        "condition": 1,
+        "horizon_R127_disagreements": 3,
+        "smooth_horizon_disagreements": 0,
+        "horizon_positive": 19,
+        "smooth_positive": 19,
+        "R127_positive": 18
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_008",
+        "condition": 1,
+        "horizon_R127_disagreements": 6,
+        "smooth_horizon_disagreements": 3,
+        "horizon_positive": 211,
+        "smooth_positive": 208,
+        "R127_positive": 217
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_009",
+        "condition": 1,
+        "horizon_R127_disagreements": 7,
+        "smooth_horizon_disagreements": 1,
+        "horizon_positive": 122,
+        "smooth_positive": 121,
+        "R127_positive": 125
+      },
+      {
+        "panel": "D12_I5_S",
+        "window_id": "Q2_D12_I5_S_private_010",
+        "condition": 1,
+        "horizon_R127_disagreements": 5,
+        "smooth_horizon_disagreements": 3,
+        "horizon_positive": 131,
+        "smooth_positive": 128,
+        "R127_positive": 136
+      }
+    ]
+  }
+}

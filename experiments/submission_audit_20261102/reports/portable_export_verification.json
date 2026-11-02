@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "all8_roads": true,
+  "rows_per_model": 87000,
+  "portable_exporter_in_submission_repo": true,
+  "byte_identical_to_independent_workspace_export": {
+    "horizon082723_validation_queue.csv": true,
+    "smooth082815_validation_queue.csv": true,
+    "R127_validation_queue.csv": true
+  },
+  "future_target_mutation_checks": 16
+}

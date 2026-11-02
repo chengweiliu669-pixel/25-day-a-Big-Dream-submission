@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "official_total": null,
+  "official_component_scores": null,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "baseline": {
+    "file": "submission_horizon082723.csv",
+    "sha256": "5b7d516ec02262628bfcc0f9c9dc5bd9e74cf1400e368d0bf664ed921244fa69"
+  },
+  "same_state_and_odme_bytes_by_construction": true,
+  "baseline_component_line_sha256": {
+    "state": "e43480976f7cd632b0001676c415316f428d47426bf9701d3e66ddbf8a5999a1",
+    "queue": "0d984aba7ab65263642dbfb7a2fcb127a4fd288a35672f7dd90cbb138400a389",
+    "odme": "671edb10ac110c53aee1d4544a2b97859a2a0645de2ee878e69a9850687f4f05"
+  },
+  "controls": {
+    "R127": {
+      "file": "submission_R127_queue_only.csv",
+      "sha256": "f009c2ab252f57142a057156c79393f9fb17da61cecd235c55ca2d681c18ac85",
+      "changed_queue_rows": 831,
+      "nonqueue_rows_byte_identical": true
+    },
+    "smooth082815": {
+      "file": "submission_smooth082815_queue_only.csv",
+      "sha256": "4185e04e233a9d8a26479cef0b6010b10adf33849fdb3e2e0a70ef00c8ad1fff",
+      "changed_queue_rows": 124,
+      "nonqueue_rows_byte_identical": true
+    }
+  },
+  "interpretation": "If these files receive official scores,delta_total/.30 isolates delta_S_queue. Actual user-uploaded CSV has not been obtained; do not assume baseline equals that upload."
+}

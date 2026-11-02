@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "file": "submission_R127_queue_only.csv",
+  "sha256": "f009c2ab252f57142a057156c79393f9fb17da61cecd235c55ca2d681c18ac85",
+  "changed_queue_rows": 831,
+  "nonqueue_rows_byte_identical": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  }
+}

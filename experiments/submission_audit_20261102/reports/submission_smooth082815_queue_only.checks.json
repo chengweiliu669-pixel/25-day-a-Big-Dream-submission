@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "file": "submission_smooth082815_queue_only.csv",
+  "sha256": "4185e04e233a9d8a26479cef0b6010b10adf33849fdb3e2e0a70ef00c8ad1fff",
+  "changed_queue_rows": 124,
+  "nonqueue_rows_byte_identical": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rows": 6980503,
+  "changed_task4_rows": 6642,
+  "state_and_queue_rows_byte_identical": true,
+  "only_changed_panel": "D7_I210_W",
+  "frozen_prior_policy": "v9official75percent+scaledKL25percent;existing count-CV policy,not new hidden-score winner",
+  "candidate_source": "experiments\\task4\\robust_odme_20261027\\outputs\\robust_v9\\task4_conservative_candidate.csv",
+  "output": "submission_task4_v9_only.csv",
+  "sha256": "6b632fb7e20a9c60bdaf492996745786a9fb0a0a9f04adb3d05ec44e182528c1",
+  "official_total": null,
+  "interpretation": "Comparing to verified baseline official total:delta_total/.20 isolates delta_S_ODME. Do not call a local synthetic score official."
+}

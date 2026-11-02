@@ -1,0 +1,81 @@
+{
+  "panels": [
+    "D7_I10_E",
+    "D12_I405_S"
+  ],
+  "fit_dates": [
+    "2030-06-29",
+    "2030-06-30",
+    "2030-07-01",
+    "2030-07-07",
+    "2030-07-13",
+    "2030-07-19",
+    "2030-07-25",
+    "2030-07-31",
+    "2030-08-01",
+    "2030-08-07",
+    "2030-08-13",
+    "2030-08-19",
+    "2030-08-25",
+    "2030-08-31",
+    "2030-09-01",
+    "2030-09-07",
+    "2030-09-13",
+    "2030-09-18",
+    "2030-09-24",
+    "2030-09-30",
+    "2030-10-01",
+    "2030-10-07",
+    "2030-10-13",
+    "2030-10-19",
+    "2030-10-25",
+    "2030-10-31",
+    "2030-11-01",
+    "2030-11-07",
+    "2030-11-13",
+    "2030-11-18",
+    "2030-11-24",
+    "2030-11-30"
+  ],
+  "fit_rows_per_day": 2500,
+  "heads": [
+    "joint"
+  ],
+  "alpha_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "December_model_selection_dates": [
+    "2030-12-14",
+    "2030-12-17",
+    "2030-12-21",
+    "2030-12-24",
+    "2030-12-28",
+    "2030-12-31"
+  ],
+  "January_confirmation_dates": [
+    "2031-01-05",
+    "2031-01-10",
+    "2031-01-15",
+    "2031-01-21",
+    "2031-01-26",
+    "2031-01-31"
+  ],
+  "February_report_only_dates": [
+    "2031-02-01",
+    "2031-02-06",
+    "2031-02-12",
+    "2031-02-17",
+    "2031-02-23",
+    "2031-02-28"
+  ],
+  "selection": "December S_state >=parent+.0001 and dN_MAE<=parent*1.001 and each road state>=parent-.001;alpha0 alwaysavailable. Maximize macro S_state,tie lowerdN_MAE. January confirms only;February report only.",
+  "target": "Two L2 residual regressors for speed and perlane flow relative to masked interpolation,using51history features plus density-ratio context. Same500tree capacity. Blend both state channels with frozen parent using one shared alpha. Do not reconstruct speed by dividing predicted density.",
+  "truth": "Released noisy high-quality states only, not hidden state or official Task3 boundary flows",
+  "inference": "masked observations only; known state read is blocked while building inputs",
+  "Task2": "All onset/ongoing models and thresholds unchanged",
+  "caveat": "Pilot2roads sampled days, not full55day score, not official total; state models trained throughDec13,development already used historically"
+}
