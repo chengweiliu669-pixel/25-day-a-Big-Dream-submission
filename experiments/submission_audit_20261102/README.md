@@ -41,3 +41,11 @@ python tools/export_task2_horizon_official.py --data-root D:/data/kaggle_public 
 ## 已有贡献者检查问题
 
 原tools/check_contributors.py在本轮基线的两条既有提交上已失败。本轮新增提交按团队已核实账号署名，没有增加新的身份失败；原检查脚本和既有历史均未改写。完整历史检查仍不通过，不把新增提交的署名合规说成全库已通过；见reports/inherited_contributor_check.json。
+
+## 按用户要求独立重跑官方提交准则
+
+用户确认原上传文件不在其手上，不再等待该文件。从本库声明的模型和同机授权数据独立重建提交，直接下载并运行官方main分支的原版src/merge_submissions.py。最新脚本与已归档官方参考仅行结束符不同，下载脚本SHA256为a8cd6c4c9f2cea777fde8f6b163c00835a4fb45672998b9fc71368810e792ee1。
+
+官方合并完整跑过6,980,503行，打印“Every scored cell was filled from your files.”，无漏键补零警告。与本轮已发布基准按submission_id、task和四个数值列逐行比较，顺序完全一致，四个数值列最大绝对差均为0.0。见[官方合并复核](reports/official_merge_recheck.json)。这确认的是本机重建文件的完整性和映射正确，不冒充对队友原上传文件的比对。
+
+另直接运行官方Task4公开计数评分器，validation S_link=0.999939410001、private发布计数S_link=0.999923233550，均无缺失、重复、非法路径。这里的private仅指发布的private期合成计数，不是Kaggle隐藏私榜。完整S_ODME、S_queue、S_physics及隐藏总分仍需要未公开真值或官方返回；不填入估算数字。

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "official_merger_source_url": "https://raw.githubusercontent.com/jacky850/trafficflowbench-public/main/src/merge_submissions.py",
+  "official_merger_sha256": "a8cd6c4c9f2cea777fde8f6b163c00835a4fb45672998b9fc71368810e792ee1",
+  "matches_published_official_reference_ignoring_line_endings": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "all_scored_cells_filled": true,
+  "no_missing_key_zero_fallback": true,
+  "submission_id_order_identical": true,
+  "max_abs_numeric_error_vs_verified_baseline": {
+    "speed_kmh": 0.0,
+    "flow_vph": 0.0,
+    "queue_pred": 0.0,
+    "path_flow": 0.0
+  },
+  "numeric_tolerance": 1e-09,
+  "official_total": null,
+  "reason_total_not_available": "Queue underlying truth, full path truth and organizer boundary flux are withheld; format/merge validation cannot generate hidden total.",
+  "seconds": 61.475029706954956
+}
