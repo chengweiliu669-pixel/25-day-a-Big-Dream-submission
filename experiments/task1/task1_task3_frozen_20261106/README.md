@@ -16,16 +16,17 @@ Task3 本地代理使用公开参考存量差。正式计分使用主办方持�
 
 ## 在另一台电脑上复现
 
-先从 [Kaggle 官方数据页](https://www.kaggle.com/competitions/2026-ieee-big-data-traffic-flow-bench/data) 下载并解压比赛数据。数据根目录是含有 `config`、`corridors` 和 `task1` 的 `kaggle_public`。下面用 Windows x64 和 Python 3.12 举例。冻结权重复现可使用 CPU。
+先从 [Kaggle 官方数据页](https://www.kaggle.com/competitions/2026-ieee-big-data-traffic-flow-bench/data) 下载并解压比赛数据。数据根目录是含有 `config`、`corridors` 和 `task1` 的 `kaggle_public`。下面用 Windows x64 和 Python 3.12 举例。冻结权重复现可使用 CPU。把仓库和虚拟环境放在短路径下，以免 PyTorch 安装超过 Windows 默认路径长度。
 
 ~~~powershell
-git clone --branch task1-task3-frozen-20261106 --single-branch https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission.git
-cd 25-day-a-Big-Dream-submission
+$repo = Join-Path $env:USERPROFILE 'tfb-20261106'
+git -c core.longpaths=true clone --branch task1-task3-frozen-20261106 --single-branch https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission.git $repo
+Set-Location $repo
 py -3.12 -m venv .venv
 $python = (Resolve-Path .\.venv\Scripts\python.exe).Path
 $package = (Resolve-Path .\experiments\task1\task1_task3_frozen_20261106).Path
-& $python -m pip install -r "$package\requirements.txt"
-& $python -m pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cpu
+& $python -m pip install -r "$package\requirements.txt" -c "$package\requirements-cpu-win312.lock.txt"
+& $python -m pip install torch==2.9.1+cpu --index-url https://download.pytorch.org/whl/cpu -c "$package\requirements-cpu-win312.lock.txt"
 $data = 'D:\datasets\kaggle_public'
 
 & $python "$package\reproduce.py" fetch
@@ -34,7 +35,7 @@ $data = 'D:\datasets\kaggle_public'
 
 `fetch` 从本仓库的 [GitHub Release](https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission/releases/tag/task1-task3-frozen-20261106) 下载权重。已有压缩包可加 `--archive`，也可以用 `--weights-dir` 指定单独的权重目录。`weights.json` 固定压缩包与解包后的逐文件 SHA256。Git 里保存代码、参数清单、参考指标和数据指纹。
 
-`reproduce` 先用公开掩码和冻结权重生成十条路 28 天的预测，然后校验 900 个输入文件的 SHA256，读取 2 月标签评分。结果在 `runs/frozen-february/february-metrics.json`，含逐路结果、十路均值以及与发布参考的误差。目标键、行数和数值有效性逐日核对。平台差异的验收容差由代码逐项检查。
+`reproduce` 先用公开掩码和冻结权重生成十条路 28 天的预测，然后校验 900 个输入文件的 SHA256，读取 2 月标签评分。结果在 `runs/frozen-february/february-metrics.json`，含逐路结果、十路均值以及与发布参考的误差。目标键、行数和数值有效性逐日核对。平台差异的验收容差由代码逐项检查。[复现验收记录](acceptance.json)列出 Windows x64 全新 Python 环境和 CUDA 两次完整复算的结果。
 
 只生成状态预测时，可用下面的入口。`--split` 支持 `february`、`validation` 和 `private`。输出是按官方模板键排列的逐日 Parquet。
 
@@ -51,13 +52,13 @@ $data = 'D:\datasets\kaggle_public'
 ~~~powershell
 py -3.12 -m venv .venv-train
 $trainPython = (Resolve-Path .\.venv-train\Scripts\python.exe).Path
-& $trainPython -m pip install -r "$package\requirements-training.txt"
+& $trainPython -m pip install -r "$package\requirements.txt"
 & $trainPython -m pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cu128
 
 & $trainPython "$package\train_frozen.py" --data-root $data --device cuda --work-dir .\runs\new-training
 & $trainPython "$package\reproduce.py" reproduce --data-root $data --device cuda --trained-run .\runs\new-training --output .\runs\new-training-february
 ~~~
 
-重新训练会创建独立权重和冻结清单。硬件和训练算子的差异会影响新权重，重训成绩以新生成的报告为准。只重训下游阶段时可给 `train_frozen.py` 指定 `--published-base` 为下载解包后的权重目录。`--road` 是单路诊断入口。
+重新训练会创建独立权重和冻结清单。硬件和训练算子的差异会影响新权重，重训成绩以新生成的报告为准。只重训下游阶段时可给 `train_frozen.py` 指定 `--published-base` 为下载解包后的权重目录。`--road` 可用于单路下游诊断。
 
 主要来源见 `provenance.json`。基础特征和底座模型代码保留已有团队实现，物理计算沿用比赛评分口径。
