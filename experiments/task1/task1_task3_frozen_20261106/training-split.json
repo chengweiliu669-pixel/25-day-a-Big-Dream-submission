@@ -1,0 +1,14 @@
+{
+  "first_date": "2030-06-01",
+  "last_training_month": "2031-01",
+  "evaluation_month": "2031-02",
+  "base_transformer_history": "2030-06-01 through 2030-06-28",
+  "base_transformer_fit": "2030-06-29 through 2030-12-13",
+  "base_transformer_selection": "2030-12-14 through 2031-01-04",
+  "base_global_tree_fit": "2030-06-01 through 2030-12-21",
+  "base_global_tree_selection": "2030-12-22 through 2031-01-04",
+  "residual_fit": "2030-12-14 through 2031-01-20, omitting 2031-01-01 through 2031-01-04",
+  "residual_selection_and_physics_fit": "2031-01-21 through 2031-01-31",
+  "kaggle_upload": false,
+  "previous_joint_transformer_checkpoint_resumed": false
+}

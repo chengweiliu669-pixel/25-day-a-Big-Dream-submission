@@ -1,3 +1,7 @@
+## 2026-11-06 Task1 / Task3 十路冻结版
+
+[完整复现、发布权重和验收指标](experiments/task1/task1_task3_frozen_20261106/README.md)。本分支打包 2031 年 2 月十条路的固定版本，支持用公开数据和 CPU 重建逐日预测并核对评分。
+
 # 25-day-a-Big-Dream · 提交整理版
 
 团队：[OscarZH2005030](https://github.com/OscarZH2005030) · [JaydenWang9](https://github.com/JaydenWang9) · [chengweiliu669-pixel](https://github.com/chengweiliu669-pixel)

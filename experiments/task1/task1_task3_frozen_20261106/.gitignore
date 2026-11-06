@@ -1,0 +1,4 @@
+weights/
+*-weights.zip
+*.download
+__pycache__/

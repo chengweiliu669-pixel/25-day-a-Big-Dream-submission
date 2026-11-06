@@ -1,0 +1,29 @@
+{
+  "frozen_retrain_sha256": "62b267714a7fc490e02b8724a45506e5365d7ed01914a29a7b7c6052c881388c",
+  "frozen_d7_manifests": {
+    "outputs\\task3-point-error\\frozen.json": "92cec4833d69e95c3b05948ab946da89d1b691b6238e632c2181030da3a62b1e",
+    "outputs\\task3-two-road-followup\\frozen.json": "4ddbd5cc1de65be53974b28e5356577f77548031df90ce195932341c9e247fb5",
+    "outputs\\task3-rmse-oof\\frozen.json": "551008248b3a8546fe209f49686d389d9964907e4287242902b4bd7f4898fd19",
+    "outputs\\task1-full-retrain-public\\frozen.json": "62b267714a7fc490e02b8724a45506e5365d7ed01914a29a7b7c6052c881388c"
+  },
+  "frozen_d7_acceptance_sha256": "a8210bc95e7e2c87e80abc0e6be64a00bd3823a7cda82e72d639ffa9f98f7ae8",
+  "source_snapshots": {
+    "task1_upstream": "041de1f",
+    "repository_original": "e254d55",
+    "selected_base_sha256": "46092a061ec3fbbd919d0754ec054f98befb03ca931617d1242b15bad2306177",
+    "cascade_sha256": "7adbc3f0fd7a73b85b614c9832a7d93b5e14f3d3ed6436825d953c08164bbb98",
+    "tail_sha256": "2139b76254c624678a8ff2ba1c03a87722e0a027bf5b4f8382ba346afa3cbe2a",
+    "edge_sha256": "76a76fc0a4cfd5a94dc644dc15c313ca1338012f7652f6c58d9bcd9a6678902b",
+    "bridge_sha256": "b8eaffdb5649c6e03a0e63be1fc30592f2576048f04a47346ddda77b0eaafd7c",
+    "point_sha256": "a417b0372f7d445743e8fdffc3f8c03f1f403c3869b2b7216cd8c33bd53b6aa0",
+    "scorer_sha256": "2cc910767350011326d41761a07efb26fd568ada1b0ad9df7c93a5240cfee40a"
+  },
+  "training_environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "pyarrow": "26.0.0",
+    "torch": "2.9.1+cu128",
+    "lightgbm": "4.7.0"
+  }
+}
