@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "task3_uses_state_rows": true,
+  "odme_source_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "csv_sha256": "5b2ac4e53caf9b7a29b42b9d60378a9ed03a301c3b9845bccc082c42b310d62d",
+  "zip_sha256": "4a7b7bed9e6877a26adf6e62644756bf872434aff3db71d8e37f3e4260f61df6",
+  "zip_bytes": 149853435,
+  "official_score": null
+}

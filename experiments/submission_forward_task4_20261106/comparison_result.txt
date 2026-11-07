@@ -1,0 +1,5 @@
+rows 6980503 vs 6980503; submission_id and task columns identical
+tasks: state 6735795, queue 174000, odme 70708
+non-odme rows identical: True
+odme rows 70708: finite True, nonnegative True, changed 4158, mean |diff| 0.011806, relative L1 diff 0.000532, total flow 1568165.4468 in both
+zip members: ['submission.csv'], testzip None

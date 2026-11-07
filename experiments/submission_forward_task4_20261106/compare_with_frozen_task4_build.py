@@ -1,0 +1,10 @@
+import pandas as pd, numpy as np, zipfile
+a=pd.read_csv("out/submission.csv",dtype={"submission_id":str}); b=pd.read_csv("out_fwd/submission.csv",dtype={"submission_id":str})
+print(len(a),len(b), (a.submission_id==b.submission_id).all(), (a.task==b.task).all())
+o=a.task.eq("odme") if (a.task=="odme").any() else a.task.str.contains("od",case=False)
+print("tasks",a.task.value_counts().to_dict())
+na=a[~o].reset_index(drop=True); nb=b[~o].reset_index(drop=True)
+print("non-odme identical:", na.equals(nb))
+fa,fb=a.loc[o,"path_flow"].to_numpy(float),b.loc[o,"path_flow"].to_numpy(float)
+print("odme rows",o.sum(),"finite",np.isfinite(fb).all(),"nonneg",(fb>=0).all(),"changed",(fa!=fb).sum(),"mean|d|",np.abs(fa-fb).mean(),"rel L1",np.abs(fa-fb).sum()/fa.sum(),"sum a/b",fa.sum(),fb.sum())
+z=zipfile.ZipFile("out_fwd/submission.zip");print(z.namelist(),z.testzip())

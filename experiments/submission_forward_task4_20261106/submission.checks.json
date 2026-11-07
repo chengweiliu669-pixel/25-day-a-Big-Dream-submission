@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "keys": "official submission_key order; one-to-one, finite/nonnegative, queue binary",
+  "output": "submission.csv",
+  "sha256": "ff017582bf6f9991072cb2627121f3f25e9efe3c9a103aae368b125e0019941c"
+}
